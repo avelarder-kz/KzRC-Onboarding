@@ -3,16 +3,6 @@
 * {
   padding: 0;
   margin: 0;
-  display: "flex";
-}
-
-.backdrop {
-  /* background: url("wallpaper2you_347849.jpg") no-repeat center center fixed; */
-  background-color: rgb(0, 0, 0);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 canvas {
@@ -23,24 +13,23 @@ canvas {
 }
 
 :root {
-  --dark-bg: rgba(8, 8, 8, 0.75);
+  --dark-bg: rgba(19, 19, 19, 0.863);
   --spacing: 350px;
-
   font-family: "Courier New", Courier, monospace;
   font-weight: 400;
   font-style: normal;
+  background-color: rgb(0, 0, 0);
 }
 
 main {
-  width: 100vw;
-  color: white;
-  z-index: 99;
-  position: absolute;
+  /* width: 100vw; */
+  /* z-index: 99; */
+  /* position: absolute; */
   margin: 0px auto;
   padding: 120px 0px;
 
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  /* display: grid; */
+  /* grid-template-columns: repeat(12, 1fr); */
 }
 
 h1,
@@ -59,26 +48,34 @@ canvas {
 }
 
 header {
+  width: 50%;
   background: var(--dark-bg);
-  grid-column: 2 / span 5;
   font-size: 2.5rem;
   padding: 2rem;
   margin-bottom: var(--spacing);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 999;
+  backdrop-filter: blur(2px);
 }
 
 section {
-  grid-column: 2 / 8;
   padding: 3rem;
   background: var(--dark-bg);
   font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: var(--spacing);
+  color: white;
+  backdrop-filter: blur(2px);
 }
 
 blockquote {
-  margin: 0;
+  width: 100vh;
+  margin: 3em;
   padding: 0;
-  grid-column: 2 / span 9;
   margin-bottom: var(--spacing);
 }
 
@@ -90,15 +87,8 @@ blockquote p {
   line-height: 1;
 }
 
-.left {
-  grid-column: 6 / 12;
-}
-.right {
-  grid-column: 2 / 12;
-}
-
 .download {
-  background-color: #222368; /* Green */
+  background-color: #222368;
   border: 2px cornsilk;
   border-radius: 5px;
   color: white;
