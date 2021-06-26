@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cpx 'SpaceShuttel.*' dist",
+    "build": "vite build && cpx 'SpaceShuttel.*' dist && cpx 'SpaceShuttel.*' dist/assets",
     "serve": "vite preview",
     "preview": "vite preview"
   },
