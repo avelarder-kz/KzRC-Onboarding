@@ -47,6 +47,10 @@ canvas {
   left: 0;
 }
 
+.image-size {
+  width: 300px;
+}
+
 header {
   width: 50%;
   background: var(--dark-bg);

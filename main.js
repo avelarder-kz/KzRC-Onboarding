@@ -57,7 +57,7 @@ Array(1500).fill().forEach(addStar);
 function moveCamera() {
   const t = document.body.getBoundingClientRect().top;
 
-  camera.position.z = t * -0.02;
+  camera.position.z = t * -0.01;
 }
 document.body.onscroll = moveCamera;
 
