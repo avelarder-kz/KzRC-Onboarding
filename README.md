@@ -12,3 +12,5 @@ npm run dev
 Special thanks to Jeff Delaney for his work that was taken as baseline to build this project.
 
 **Souce**: https://github.com/fireship-io/threejs-scroll-animation-demo
+
+Triger
