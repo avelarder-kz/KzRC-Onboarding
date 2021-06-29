@@ -1,236 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KZ Reframe Financial - Onboarding</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KZ Reframe Financial - Onboarding</title>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</head>
+  <body>
+    <canvas id="bg" class="canvas"></canvas>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <header>
+            <h1>Welcome partner</h1>
+            <p>The whole crew is happy to have you on board!</p>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <blockquote>
+            <p>Let's get started...</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row justify-content-start">
+        <div class="col-12">
+          <section>
+            <h2>Installation and Setup</h2>
+            <p>
+              By now, you got a high-performance device enough to satisfy all
+              the technical requirements the project demands. Below the list of
+              software you need to install:
+            </p>
+            <br />
+            <ul>
+              <li>
+                <a
+                  class="download"
+                  href="https://docs.microsoft.com/en-us/windows/wsl/install-win10"
+                  target="_blank"
+                  >Download</a
+                >
+                | Windows Sub Linux (WSL 2.0) and Ubuntu 20.04 LTS Distro
+              </li>
+              <li>
+                <a
+                  class="download"
+                  href="https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=header"
+                  target="_blank"
+                  >Download</a
+                >
+                | Docker Desktop
+              </li>
+              <li>
+                <a
+                  class="download"
+                  href="https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.1/Git-2.32.0-64-bit.exe"
+                  target="_blank"
+                  >Download</a
+                >
+                | Git for Windows
+              </li>
+              <li>
+                <a
+                  class="download"
+                  href="https://www.postman.com/downloads/"
+                  target="_blank"
+                  >Download</a
+                >
+                | Postman
+              </li>
+              <li>
+                <a
+                  class="download"
+                  href="https://www.pgadmin.org/download/pgadmin-4-windows/"
+                  target="_blank"
+                  >Download</a
+                >
+                | PgAdmin 4 v5.
+              </li>
+              <li>
+                NodeJS
+                <p>You might need both versions, for Windows and Ubuntu.</p>
+                <ul>
+                  <li>
+                    <a
+                      class="download"
+                      href="https://nodejs.org/en/download/"
+                      target="_blank"
+                      >Download</a
+                    >
+                    | Windows
+                  </li>
+                  <li>
+                    <a
+                      class="download"
+                      href="https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl"
+                      target="_blank"
+                      >Download</a
+                    >
+                    | WSL Ubuntu
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a
+                  class="download"
+                  href="https://docs.microsoft.com/en-us/windows/wsl/install-win10"
+                  target="_blank"
+                  >Download</a
+                >
+                | Visual Studio Code
+                <br />
+                <p>
+                  It´s also recommended to have the Extensions for VS Code
+                  installed and ready to go.
+                </p>
+                <br />
+                <ul>
+                  <li>Prettier</li>
+                  <li>GitLab Workflow</li>
+                  <li>Remote WSL</li>
+                  <li>GraphQL</li>
+                  <li>Remote Containers Docker</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <blockquote>
+            <p>But wait..</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-12">
+          <section class="left">
+            <h2>Additional Access</h2>
 
-<body>
-  <canvas id="bg" class="canvas"></canvas>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-4">
-        <header>
-          <h1>Welcome partner</h1>
-          <p>The whole crew is happy to have you on board!</p>
-        </header>
+            <p>
+              All the documentation related to the project is consolidaded
+              inside Notion. Please, consider Notion as the source of truth for
+              requirements, technical specifications, wireframes, shared
+              documents and more.
+            </p>
+            <br />
+            <ul>
+              <li>ThreadIt</li>
+              <li>GitLab</li>
+              <li>Reframe Financial channels in Slack.</li>
+              <li>
+                Figma
+                <a
+                  class="seemore"
+                  href="https://www.figma.com/file/xSHspOFeqCETHFOFxQFaXq/eApp-Wireframes?node-id=0%3A1"
+                  target="_blank"
+                  >(see more)</a
+                >
+              </li>
+              <li>
+                Notion
+                <a
+                  class="seemore"
+                  href="https://www.notion.so/eApp-Builder-808a67e3df3b4f75a260f2ae7cf7db1f"
+                  target="_blank"
+                  >(see more)</a
+                >
+              </li>
+            </ul>
+            <br />
+            <p>
+              We are more than happy to request access on your behalf and we
+              normally do it in that way. But just in case, if access is not
+              granted, please let us know. We will connect with the client right
+              away.
+            </p>
+          </section>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <blockquote>
-          <p>Let's get started...</p>
-        </blockquote>
+      <div class="row">
+        <div class="col-12">
+          <blockquote>
+            <p>What now?</p>
+          </blockquote>
+        </div>
       </div>
-    </div>
-    <div class="row  justify-content-start">
-      <div class="col-12">
-        <section>
-          <h2>Installation and Setup</h2>
-          <p>
-            By now, you got a high-performance device enough to satisfy all the technical requirements the project
-            demands.
-            Below the list of software you need to install:
-          </p>
-          <br />
-          <ul>
-            <li>
-              <a class="download" href="https://docs.microsoft.com/en-us/windows/wsl/install-win10"
-                target="_blank">Download</a>
-              | Windows Sub Linux (WSL 2.0) and Ubuntu 20.04 LTS Distro
-            </li>
-            <li>
-              <a class="download"
-                href="https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=header"
-                target="_blank">Download</a> | Docker Desktop
-            </li>
-            <li>
-              <a class="download"
-                href="https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.1/Git-2.32.0-64-bit.exe"
-                target="_blank">Download</a> | Git for Windows
-            </li>
-            <li>
-              <a class="download" href="https://www.postman.com/downloads/" target="_blank">Download</a> | Postman
-            </li>
-            <li>
-              <a class="download" href="https://www.pgadmin.org/download/pgadmin-4-windows/"
-                target="_blank">Download</a>
-              | PgAdmin 4 v5.
-            </li>
-            <li>
-              NodeJS
-              <p>You might need both versions, for Windows and Ubuntu.</p>
-              <ul>
-                <li>
-                  <a class="download" href="https://docs.microsoft.com/en-us/windows/wsl/install-win10"
-                    target="_blank">Download</a> | Windows
-                </li>
-                <li>
-                  <a class="download" href="https://docs.microsoft.com/en-us/windows/wsl/install-win10"
-                    target="_blank">Download</a> | Ubuntu
-                </li>
-
-              </ul>
-            </li>
-            <li>
-              <a class="download" href="https://docs.microsoft.com/en-us/windows/wsl/install-win10"
-                target="_blank">Download</a>
-              | Visual Studio Code
-              <br />
-              <p>It´s also recommended to have the Extensions for VS Code installed and ready to go.</p>
-              <br />
-              <ul>
-                <li>
-                  Prettier
-                </li>
-                <li>
-                  GitLab Workflow
-                </li>
-                <li>
-                  Remote WSL
-                </li>
-                <li>
-                  GraphQL
-                </li>
-                <li>
-                  Remote Containers Docker
-                </li>
-              </ul>
-            </li>
-
-          </ul>
-        </section>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <blockquote>
-          <p>But wait..</p>
-        </blockquote>
-      </div>
-    </div>
-    <div class="row justify-content-end">
-      <div class="col-12">
-        <section class="left">
-          <h2>Additional Access</h2>
-
-          <p>
-            All the documentation related to the project is consolidaded inside Notion.
-            Please, consider Notion as the source of truth for requirements, technical specifications, wireframes,
-            shared documents and more.
-          </p>
-          <br />
-          <ul>
-            <li>
-              ThreadIt
-            </li>
-            <li>
-              GitLab
-            </li>
-            <li>
-              Reframe Financial channels in Slack.
-            </li>
-            <li>
-              Figma <a class="seemore"
-                href="https://www.figma.com/file/xSHspOFeqCETHFOFxQFaXq/eApp-Wireframes?node-id=0%3A1"
-                target="_blank">(see
-                more)</a>
-            </li>
-            <li>
-              Notion <a class="seemore" href="https://www.notion.so/eApp-Builder-808a67e3df3b4f75a260f2ae7cf7db1f"
-                target="_blank">(see more)</a>
-            </li>
-          </ul>
-          <br />
-          <p>
-            We are more than happy to request access on your behalf and we normally do it in that way.
-            But just in case, if access is not granted, please let us know. We will connect with the client right
-            away.
-          </p>
-        </section>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <blockquote>
-          <p>What now?</p>
-        </blockquote>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <section>
-          <h2>Well, at this point all the tools are installed and accesses are granted.</h2>
-          <p>
-            There are three main applications under construction.
-          </p>
-          <br />
-          <div class="card">
-            <img src="images/wolfgang.jpg" class="card-img-top image-size" alt="...">
-            <div class="card-body  image-size">
-              <h3 class="card-title">Wolfgang - The React Application</h3>
-              <p class="card-text">Our state of the art SPA + Material-UI with a drizzle of our secret sauce.
-              </p>
-              <a class="download" href="https://gitlab.com/reframe-financial/wolfgang/-/tree/main"
-                target="_blank">GitLab</a>
+      <div class="row">
+        <div class="col-12">
+          <section>
+            <h2>
+              Well, at this point all the tools are installed and accesses are
+              granted.
+            </h2>
+            <p>There are three main applications under construction.</p>
+            <br />
+            <div class="card">
+              <img
+                src="images/wolfgang.jpg"
+                class="card-img-top image-size"
+                alt="..."
+              />
+              <div class="card-body image-size">
+                <h3 class="card-title">Wolfgang - The React Application</h3>
+                <p class="card-text">
+                  Our state of the art SPA + Material-UI with a drizzle of our
+                  secret sauce.
+                </p>
+                <a
+                  class="download"
+                  href="https://gitlab.com/reframe-financial/wolfgang/-/tree/main"
+                  target="_blank"
+                  >GitLab</a
+                >
+              </div>
             </div>
-          </div>
-          <br />
-          <div class="card">
-            <img src="images/agnes.jpg" class="card-img-top  image-size" alt="...">
-            <div class="card-body  image-size">
-              <h3 class="card-title">Agnes - Apollo GraphQL Gateway</h3>
-              <p class="card-text">Lot of magic happens behind the scenes. This is like a buffet, you can eat as much as
-                you want but we recommend to grab just what you need.
-              </p>
-              <a class="download" href="https://gitlab.com/reframe-financial/agnes/-/tree/main"
-                target="_blank">GitLab</a>
+            <br />
+            <div class="card">
+              <img
+                src="images/agnes.jpg"
+                class="card-img-top image-size"
+                alt="..."
+              />
+              <div class="card-body image-size">
+                <h3 class="card-title">Agnes - Apollo GraphQL Gateway</h3>
+                <p class="card-text">
+                  Lot of magic happens behind the scenes. This is like a buffet,
+                  you can eat as much as you want but we recommend to grab just
+                  what you need.
+                </p>
+                <a
+                  class="download"
+                  href="https://gitlab.com/reframe-financial/agnes/-/tree/main"
+                  target="_blank"
+                  >GitLab</a
+                >
+              </div>
             </div>
-          </div>
-          <br />
-          <div class="card">
-            <img src="images/ingrid.jpg" class="card-img-top  image-size" alt="...">
-            <div class="card-body image-size">
-              <h3 class="card-title">Ingrid - NodeJs REST API with Dapr</h3>
-              <p class="card-text">The underworld starts from here. Microservices, DAPR side-cards, Postgress and more.
-              </p>
-              <a class="download" href="https://gitlab.com/reframe-financial/ingrid/-/tree/main"
-                target="_blank">GitLab</a>
+            <br />
+            <div class="card">
+              <img
+                src="images/ingrid.jpg"
+                class="card-img-top image-size"
+                alt="..."
+              />
+              <div class="card-body image-size">
+                <h3 class="card-title">Ingrid - NodeJs REST API with Dapr</h3>
+                <p class="card-text">
+                  The underworld starts from here. Microservices, DAPR
+                  side-cards, Postgress and more.
+                </p>
+                <a
+                  class="download"
+                  href="https://gitlab.com/reframe-financial/ingrid/-/tree/main"
+                  target="_blank"
+                  >GitLab</a
+                >
+              </div>
             </div>
-          </div>
-          <br />
-          <p>
-            As a full-stack developer, you will get your hands dirty by touching each application.
-            We believe in the idea of <b>"Sharing Knowledge and every one should know everything"</b> to  guarantee the success of the mission. <b>We are accountable!</b>
-          </p>
-          <p>
-            Specialists and/or experts in a particular field are welcome, their scope is limited and very specific but still accountable. :)
-          </p>
-        </section>
+            <br />
+            <p>
+              As a full-stack developer, you will get your hands dirty by
+              touching each application. We believe in the idea of
+              <b>"Sharing Knowledge and every one should know everything"</b> to
+              guarantee the success of the mission. <b>We are accountable!</b>
+            </p>
+            <p>
+              Specialists and/or experts in a particular field are welcome,
+              their scope is limited and very specific but still accountable. :)
+            </p>
+          </section>
+        </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-12">
-        <blockquote> 
-          <p>Are you ready?</p>
-        </blockquote>
+      <div class="row">
+        <div class="col-12">
+          <blockquote>
+            <p>Are you ready?</p>
+          </blockquote>
+        </div>
       </div>
-    </div> 
-          
-    <!-- <div class="row">
+
+      <!-- <div class="row">
       <div class="col-12"> -->
-        <button id="btnTakeOff" class="takeoff">TAKE-OFF</button>
+      <button id="btnTakeOff" class="takeoff">TAKE-OFF</button>
       <!-- </div>
     </div> -->
-  </div>
-  <script type="module" src="/main.js"></script>
-</body>
-
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>
