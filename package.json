@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --emptyOutDir && cp src/*.html src/SpaceShuttel.* dist && cp src/SpaceShuttel.* dist/assets",
+    "build": "vite build --emptyOutDir && cp src/*.html src/*.js src/SpaceShuttel.* dist && cp src/SpaceShuttel.* dist/assets",
     "serve": "vite preview",
     "preview": "vite preview"
   },
