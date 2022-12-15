@@ -75,6 +75,7 @@ section {
   margin-bottom: var(--spacing);
   color: white;
   backdrop-filter: blur(2px);
+
 }
 
 blockquote {
